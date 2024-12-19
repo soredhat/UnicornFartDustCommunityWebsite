@@ -1,0 +1,125 @@
+/* Set the background image */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  
+    /* Background image settings */
+    background-image: url('./assets/bg.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents image repetition */
+  
+    /* Set height to ensure proper scrolling */
+    height: 100vh;
+    color: white;
+  }
+  
+  /* Content styling */
+  .content {
+    text-align: center;
+    padding: 50px;
+    background: #000000f5;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff66c4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3399;
+  }
+  
+  .header {
+    position: sticky;
+    z-index: 99;
+    color: #000;
+    top: 0;
+    width: auto;
+    background: #000000f5;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  nav.menu-section {
+    width: 100%;
+  }
+
+  nav.menu-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .links {
+    display: flex;
+    color: white;
+    height: 1rem;
+    font-size: 2rem;
+    gap: 1rem;
+    align-content: center;
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .links a {
+    text-shadow: none;
+
+  }
+
+  .note {
+    font-size: 0.75rem;
+    margin: 2rem 2rem 0;
+  }
+
+  a {
+    color: white;
+    padding: 10px 20px;
+    background-color: #ff66c4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
